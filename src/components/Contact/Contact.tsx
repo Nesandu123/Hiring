@@ -10,8 +10,8 @@ const Contact: React.FC = () => {
   const [loading, setLoading] = useState(false);
 
   const contactDetails = {
-    phone: "+94 77 441 1969",
-    email: "miyurilokuhewage15@gmail.com",
+    phone: "+94 781803792",
+    email: "nesandu2002@gmail.com",
     address: "SLIIT, New Colombo Rd, Malabe, Sri Lanka",
   };
 

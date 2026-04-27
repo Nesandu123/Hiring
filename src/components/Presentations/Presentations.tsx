@@ -5,20 +5,20 @@ const presentationSlots = [
   {
     title: "Proposal Presentation",
     description: "Initial project proposal and feasibility study slides.",
-    link: "https://canva.link/xmu8xzdx0zgks1o",
+    link: "https://canva.link/z8j8q30eea3tf8t",
     status: "completed",
   },
   {
     title: "Progress Presentation 1",
     description:
       "Update on system architecture and initial implementation phases.",
-    link: "https://canva.link/ewl7dwmlf65bieq",
+    link: "https://canva.link/z8j8q30eea3tf8t",
     status: "completed",
   },
   {
     title: "Progress Presentation 2",
     description: "Demonstration of core modules and progress evaluation.",
-    link: "https://canva.link/a5a6o6zs1i9l4tm",
+    link: "https://mysliit-my.sharepoint.com/:p:/g/personal/it22272454_my_sliit_lk/IQB95VUOZp-gTZ-ImPyB_V8nAcvI-yJbYQmK7suUscge8Cg?e=giQsjb",
     status: "completed",
   },
   {

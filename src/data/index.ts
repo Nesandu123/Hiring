@@ -8,48 +8,35 @@ import type {
 
 export const teamMembers: TeamMember[] = [
   {
-    name: "Lokuhewage M.M",
-    role: "Evaluation of Answers",
+    name: "Neethila A.L.N.",
+    role: "Software Engineers Hiring Platform",
     isLeader: true,
-    image: "images/team/lokuhewage3.webp",
-    email: "miyurilokuhewage15@gmail.com",
+    image: "",
+    email: "nesandu2002@gmail.com",
     linkedin: "https://www.linkedin.com/in/miyurilokuhewage/",
   },
   {
-    name: "Ranaweera P.H.K",
-    role: "Sinhala Document Processing & Embedding",
-    image: "images/team/ranaweera2.webp",
+    name: "Kalhan A.H.L.",
+    role: "Accountants Hiring Platform",
+    image: "",
     email: "koshithahasindu@gmail.com",
     linkedin: "https://www.linkedin.com/in/hasindu-k/",
   },
-  {
-    name: "Jayananda L.V.O.R",
-    role: "Resource‑Based Q&A (Text)",
-    image: "images/team/jayananda.webp",
-    email: "oshadi.jayananda@gmail.com",
-    linkedin: "https://www.linkedin.com/in/oshadi-jayananda/",
-  },
-  {
-    name: "Sathsara T.T.D",
-    role: "Resource‑Based Q&A (Voice)",
-    image: "images/team/sathsara.webp",
-    email: "denuwansathsara0412@gmail.com",
-    linkedin: "https://www.linkedin.com/in/denuwan-sathsara-0b05712a7/",
-  },
+
 ];
 
 export const supervisors: Supervisor[] = [
   {
-    name: "Prof. Dilshan De Silva",
+    name: "Prof. Samantha Rajapakshe",
     role: "Supervisor",
-    image: "images/team/supervisor.webp",
+    image: "",
     email: "dilshan.i@sliit.lk",
     linkedin: "https://www.linkedin.com/in/prof-dilshan-de-silva-96384573/",
   },
   {
-    name: "Ms. Chamali Pabasara",
+    name: "Ms. Thamali Kalagama",
     role: "Co-Supervisor",
-    image: "images/team/co-supervisor.webp",
+    image: "",
     email: "chamali.p@sliit.lk",
     linkedin: "https://www.linkedin.com/in/chamali-pabasara-b54130182/",
   },
@@ -127,41 +114,41 @@ export const documents: Document[] = [
     description:
       "Topic assessment form for project evaluation and feedback. Status: Uploaded. Version: 3.0.",
     status: "completed",
-    link: "https://drive.google.com/file/d/1rwJRzc4vgu0eXtJ_lbHY3GVviWEqyt-M/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1zj1C2QCg831R3fmMJscctoLYpVSyrikz/view?usp=sharing",
     fileType: "PDF",
     lastUpdated: new Date("2025-06-23"),
   },
 
-  {
-    title: "Individual Project Proposals",
-    description:
-      "Comprehensive research proposals submitted by each team member covering their respective functional areas.",
-    status: "completed",
-    fileType: "PDF",
-    lastUpdated: new Date("2025-09-19"),
-    subDocuments: [
-      {
-        title: "Proposal: Evaluation of Answers (Lokuhewage M.M)",
-        link: "https://drive.google.com/file/d/1Ro0YBu4iTzlEwlIGEETJdXBQnMR0uRDy/view?usp=drive_link",
-        status: "completed",
-      },
-      {
-        title: "Proposal: Sinhala Document Processing (Ranaweera P.H.K)",
-        link: "https://drive.google.com/file/d/12lOz06qVKUM5VRsJAYojlRxBuqWjF_bI/view?usp=drive_link",
-        status: "completed",
-      },
-      {
-        title: "Proposal: Resource‑Based Q&A - Text (Jayananda L.V.O.R)",
-        link: "https://drive.google.com/file/d/18cIblzscCTYRWEnpFyFEdo5gzR1WctpA/view?usp=drive_link",
-        status: "completed",
-      },
-      {
-        title: "Proposal: Resource‑Based Q&A - Voice (Sathsara T.T.D)",
-        link: "https://drive.google.com/file/d/1hMqGEa24OGd42w3lv7TkcfJr2SRNA84B/view?usp=drive_link",
-        status: "completed",
-      },
-    ],
-  },
+  // {
+  //   title: "Individual Project Proposals",
+  //   description:
+  //     "Comprehensive research proposals submitted by each team member covering their respective functional areas.",
+  //   status: "completed",
+  //   fileType: "PDF",
+  //   lastUpdated: new Date("2025-09-19"),
+  //   subDocuments: [
+  //     {
+  //       title: "Proposal: Evaluation of Answers (Lokuhewage M.M)",
+  //       link: "https://drive.google.com/file/d/1Ro0YBu4iTzlEwlIGEETJdXBQnMR0uRDy/view?usp=drive_link",
+  //       status: "completed",
+  //     },
+  //     {
+  //       title: "Proposal: Sinhala Document Processing (Ranaweera P.H.K)",
+  //       link: "https://drive.google.com/file/d/12lOz06qVKUM5VRsJAYojlRxBuqWjF_bI/view?usp=drive_link",
+  //       status: "completed",
+  //     },
+  //     {
+  //       title: "Proposal: Resource‑Based Q&A - Text (Jayananda L.V.O.R)",
+  //       link: "https://drive.google.com/file/d/18cIblzscCTYRWEnpFyFEdo5gzR1WctpA/view?usp=drive_link",
+  //       status: "completed",
+  //     },
+  //     {
+  //       title: "Proposal: Resource‑Based Q&A - Voice (Sathsara T.T.D)",
+  //       link: "https://drive.google.com/file/d/1hMqGEa24OGd42w3lv7TkcfJr2SRNA84B/view?usp=drive_link",
+  //       status: "completed",
+  //     },
+  //   ],
+  // },
 
   {
     title: "Checklist 1 (25-26J-448)",
@@ -177,7 +164,7 @@ export const documents: Document[] = [
     description:
       "Final camera-ready research paper submitted for the SinhalaLearn research project.",
     status: "completed",
-    link: "https://drive.google.com/file/d/1o_fy6-K0ieq46jjym8CFrwSUNMd9_Pce/view?usp=drive_link",
+    link: "",
     fileType: "PDF",
     lastUpdated: new Date("2026-04-05"),
   },
@@ -196,27 +183,17 @@ export const documents: Document[] = [
         status: "in-progress",
       },
       {
-        title: "Individual Report: Evaluation of Answers (Lokuhewage M.M)",
+        title: "Individual Report:Automated Software Engineers Hiring Platform (Neethila A.L.N.)",
         link: "#",
         status: "in-progress",
       },
       {
         title:
-          "Individual Report: Sinhala Document Processing (Ranaweera P.H.K)",
+          "Individual Report:Automated Accountants Hiring Platform (Kalhan A.H.L.)",
         link: "#",
         status: "in-progress",
       },
-      {
-        title:
-          "Individual Report: Resource‑Based Q&A - Text (Jayananda L.V.O.R)",
-        link: "#",
-        status: "in-progress",
-      },
-      {
-        title: "Individual Report: Resource‑Based Q&A - Voice (Sathsara T.T.D)",
-        link: "#",
-        status: "in-progress",
-      },
+      
     ],
   },
 ];

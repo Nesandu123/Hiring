@@ -15,55 +15,47 @@ const Hero: React.FC = () => {
             <span className="tag">IT4010 Research Project | SLIIT</span>
 
             <h1 className="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white">
-              SinhalaLearn: AI‑Powered Assistant for{" "}
+              Smart Job Hiring Platform
               <span
                 className="bg-clip-text text-transparent"
                 style={{ backgroundImage: "var(--grad)" }}
               >
-                Sinhala Resources
+                 
               </span>
             </h1>
 
             <p className="mt-5 text-slate-600 dark:text-slate-300 leading-relaxed transition-colors">
-              Bridging the digital gap in Sri Lankan education through a robust
-              AI ecosystem. Our research introduces a framework for processing
-              low-resource Sinhala resources, featuring accent-adaptive voice
-              interaction, hybrid OCR for handwriting, and explainable automated
-              grading.
+              The Software Engineering Hiring Platform is an AI-driven system designed to enhance and automate the recruitment process for software engineering roles. The platform evaluates candidates through coding assessments and intelligent analysis of their technical skills, problem-solving ability, and algorithmic understanding. By reducing manual evaluation effort and improving assessment accuracy, it provides a more efficient, consistent, and objective approach to identifying qualified candidates for software engineering positions.
             </p>
 
             <ul className="mt-3 grid sm:grid-cols-2 gap-3 text-sm text-slate-700 dark:text-slate-300">
               <li className="flex items-start gap-2">
                 <span className="mt-1 h-2 w-2 rounded-full bg-sky-500"></span>
                 <span>
-                  <strong>Hybrid OCR:</strong> Tesseract, YOLOv8 & TrOCR for
-                  sinhala resources
+                  <strong>Intelligent Code Assessment Pipeline</strong> 
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1 h-2 w-2 rounded-full bg-indigo-500"></span>
                 <span>
-                  <strong>Adaptive RAG:</strong> Grade-level specific syllabus
-                  Q&A
+                  <strong>Adaptive Question Generation</strong> 
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1 h-2 w-2 rounded-full bg-fuchsia-500"></span>
                 <span>
-                  <strong>Voice AI:</strong> Southern dialect normalization
-                  layer
+                  <strong>Code Quality Measuring</strong>
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1 h-2 w-2 rounded-full bg-emerald-500"></span>
                 <span>
-                  <strong>Answer Evaluation:</strong> Deterministic answer
-                  evaluation
+                  <strong>Automated Answer Evaluation Engine</strong> 
                 </span>
               </li>
             </ul>
 
-            <div className="mt-6 flex flex-wrap gap-3">
+            {/* <div className="mt-6 flex flex-wrap gap-3">
               <span className="chip bg-slate-900 text-white dark:bg-slate-200 dark:text-slate-900">
                 RAG
               </span>
@@ -91,7 +83,7 @@ const Hero: React.FC = () => {
               <span className="chip bg-teal-100 text-teal-700 dark:bg-teal-900/30 dark:text-teal-300">
                 Low-Resource AI
               </span>
-            </div>
+            </div> */}
 
             <div className="mt-8 flex items-center gap-3">
               <a
