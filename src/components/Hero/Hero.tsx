@@ -106,131 +106,91 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="relative hidden lg:block"
             >
-              <div className="relative mx-auto w-[300px] h-[600px]">
-                {/* Main Phone Mockup */}
-                <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 rounded-[3rem] shadow-2xl border-8 border-gray-700 overflow-hidden">
-                  <div className="bg-white h-full overflow-hidden">
-                    <img
-                      src="learning-mode-ui.jpg"
-                      alt="SinhalaLearn Learning Mode Interface"
-                      className="w-full h-full object-cover"
-                    />
+              {/* Hiring Platform Dashboard Mockup */}
+              <div className="relative mx-auto bg-gradient-to-br from-slate-900 to-slate-800 dark:from-slate-950 dark:to-slate-900 rounded-2xl shadow-2xl border border-slate-700 overflow-hidden">
+                {/* Header */}
+                <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4 border-b border-slate-700 flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
+                      <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10.5 1.5H5.75A2.25 2.25 0 003.5 3.75v12.5A2.25 2.25 0 005.75 18.5h8.5a2.25 2.25 0 002.25-2.25V6.5" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+                      </svg>
+                    </div>
+                    <h3 className="text-white font-bold text-sm">Hiring Platform</h3>
+                  </div>
+                  <div className="flex gap-2">
+                    <div className="w-3 h-3 rounded-full bg-red-400"></div>
+                    <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
+                    <div className="w-3 h-3 rounded-full bg-green-400"></div>
                   </div>
                 </div>
 
-                {/* Card 1: Hybrid Recognition (Top Left) */}
-                <motion.div
-                  animate={{ y: [0, -8, 0] }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                  }}
-                  className="absolute -left-16 top-12 bg-white/95 dark:bg-slate-800/95 backdrop-blur shadow-xl p-3 w-48 rounded-2xl border border-white/20 z-10"
-                >
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-7 h-7 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg flex items-center justify-center text-emerald-600 dark:text-emerald-400">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414L14.586 4H9z" />
-                        <path d="M5 8a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V14H5V8z" />
-                      </svg>
+                {/* Content */}
+                <div className="p-6 space-y-4 min-h-[500px]">
+                  {/* Active Candidates Card */}
+                  <div className="bg-slate-800/50 backdrop-blur rounded-lg p-4 border border-slate-700">
+                    <div className="flex items-center justify-between mb-3">
+                      <h4 className="text-white font-semibold text-sm">Active Candidates</h4>
+                      <span className="bg-blue-500/20 text-blue-300 px-2 py-1 rounded text-xs font-medium">42</span>
                     </div>
-                    <span className="font-bold text-xs text-slate-900 dark:text-slate-100 transition-colors">
-                      Hybrid Recognition
-                    </span>
+                    <div className="space-y-2">
+                      <div className="flex items-center justify-between bg-slate-700/30 p-2 rounded">
+                        <span className="text-slate-300 text-xs">Python Backend Developer</span>
+                        <div className="flex gap-1">
+                          <div className="w-6 h-6 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white text-xs font-bold">A</div>
+                          <div className="w-6 h-6 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center text-white text-xs font-bold">B</div>
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between bg-slate-700/30 p-2 rounded">
+                        <span className="text-slate-300 text-xs">React Frontend Engineer</span>
+                        <div className="flex gap-1">
+                          <div className="w-6 h-6 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-full flex items-center justify-center text-white text-xs font-bold">C</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-[10px] text-slate-500 dark:text-slate-400 leading-tight">
-                    Printed & handwritten document analysis
-                  </p>
-                </motion.div>
 
-                {/* Card 2: Dialect Aware (Top Right) */}
-                <motion.div
-                  animate={{ y: [0, 8, 0] }}
-                  transition={{
-                    duration: 3.5,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    delay: 0.2,
-                  }}
-                  className="absolute -right-16 top-32 bg-white/95 dark:bg-slate-800/95 backdrop-blur shadow-xl p-3 w-48 rounded-2xl border border-white/20 z-10"
-                >
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-7 h-7 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
+                  {/* Assessment Progress */}
+                  <div className="bg-slate-800/50 backdrop-blur rounded-lg p-4 border border-slate-700">
+                    <h4 className="text-white font-semibold text-sm mb-3">Assessment Progress</h4>
+                    <div className="space-y-3">
+                      <div>
+                        <div className="flex justify-between text-xs text-slate-400 mb-1">
+                          <span>Code Challenges</span>
+                          <span>78%</span>
+                        </div>
+                        <div className="w-full h-2 bg-slate-700 rounded-full overflow-hidden">
+                          <div className="h-full bg-gradient-to-r from-blue-500 to-blue-400" style={{width: '78%'}}></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="flex justify-between text-xs text-slate-400 mb-1">
+                          <span>Technical Interview</span>
+                          <span>45%</span>
+                        </div>
+                        <div className="w-full h-2 bg-slate-700 rounded-full overflow-hidden">
+                          <div className="h-full bg-gradient-to-r from-indigo-500 to-indigo-400" style={{width: '45%'}}></div>
+                        </div>
+                      </div>
                     </div>
-                    <span className="font-bold text-xs text-slate-900 dark:text-slate-100 transition-colors">
-                      Dialect Aware
-                    </span>
                   </div>
-                  <p className="text-[10px] text-slate-500 dark:text-slate-400 leading-tight">
-                    Southern accent normalization layer
-                  </p>
-                </motion.div>
 
-                {/* Card 3: Grounded Responses (Middle Left) */}
-                <motion.div
-                  animate={{ y: [0, -10, 0] }}
-                  transition={{
-                    duration: 4,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    delay: 0.4,
-                  }}
-                  className="absolute -left-20 bottom-44 bg-white/95 dark:bg-slate-800/95 backdrop-blur shadow-xl p-3 w-48 rounded-2xl border border-white/20 z-10"
-                >
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-7 h-7 bg-sky-100 dark:bg-sky-900/30 rounded-lg flex items-center justify-center text-sky-600 dark:text-sky-400 text-sm">
-                      🛡️
+                  {/* Quick Stats */}
+                  <div className="grid grid-cols-3 gap-2">
+                    <div className="bg-gradient-to-br from-emerald-500/20 to-emerald-600/20 backdrop-blur rounded-lg p-3 border border-emerald-500/30 text-center">
+                      <p className="text-emerald-400 text-2xl font-bold">12</p>
+                      <p className="text-slate-400 text-xs">Qualified</p>
                     </div>
-                    <span className="font-bold text-xs text-slate-900 dark:text-slate-100 transition-colors">
-                      Grounded Responses
-                    </span>
-                  </div>
-                  <p className="text-[10px] text-slate-500 dark:text-slate-400 leading-tight">
-                    Hallucination-free RAG architecture
-                  </p>
-                </motion.div>
-
-                {/* Card 4: Adaptive Summary (Bottom Right) */}
-                <motion.div
-                  animate={{ y: [0, 10, 0] }}
-                  transition={{
-                    duration: 3.2,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    delay: 0.6,
-                  }}
-                  className="absolute -right-12 bottom-20 bg-white/95 dark:bg-slate-800/95 backdrop-blur shadow-xl p-3 w-48 rounded-2xl border border-white/20 z-10"
-                >
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-7 h-7 bg-amber-100 dark:bg-amber-900/30 rounded-lg flex items-center justify-center text-amber-600 dark:text-amber-400 text-sm">
-                      📝
+                    <div className="bg-gradient-to-br from-amber-500/20 to-amber-600/20 backdrop-blur rounded-lg p-3 border border-amber-500/30 text-center">
+                      <p className="text-amber-400 text-2xl font-bold">28</p>
+                      <p className="text-slate-400 text-xs">In Progress</p>
                     </div>
-                    <span className="font-bold text-xs text-slate-900 dark:text-slate-100 transition-colors">
-                      Explainable Evaluation
-                    </span>
+                    <div className="bg-gradient-to-br from-rose-500/20 to-rose-600/20 backdrop-blur rounded-lg p-3 border border-rose-500/30 text-center">
+                      <p className="text-rose-400 text-2xl font-bold">2</p>
+                      <p className="text-slate-400 text-xs">Rejected</p>
+                    </div>
                   </div>
-                  <p className="text-[10px] text-slate-500 dark:text-slate-400 leading-tight">
-                    Deterministic scoring & concept coverage
-                  </p>
-                </motion.div>
+                </div>
               </div>
             </motion.div>
           </div>
