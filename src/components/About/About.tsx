@@ -11,13 +11,11 @@ const About: React.FC = () => {
           Research Domain
         </h2>
         <p className="mt-3 text-slate-600 dark:text-slate-300 leading-relaxed">
-       This research is situated in the domain of Artificial Intelligence in Software Engineering (AI4SE),
-        focusing on the application of machine learning and natural language processing techniques to automate 
-        and enhance software engineering recruitment. The proposed system analyzes candidates’ GitHub repositories by
-         extracting Python source code and identifying algorithmic patterns using models such as CodeBERT, along with 
-         Random Forest classification and keyword-based heuristics. It further evaluates code quality using software engineering metrics
-          including cyclomatic complexity, maintainability, and structural organization of functions and classes. Additionally, the system employs Sentence-BERT (SBERT) to assess the semantic quality of candidate responses to dynamically generated interview questions. Overall, the system integrates intelligent code analysis and automated assessment 
-       methods to provide an objective, scalable, and data-driven approach to software engineer hiring.
+       The research domain focuses on AI-driven intelligent recruitment systems for multiple professional sectors, 
+       including Software Engineering, Accounting, and Project Management. The study explores automated candidate 
+       evaluation using skill-based assessments, machine learning, and data analysis techniques to improve hiring 
+       accuracy, reduce recruitment bias, minimize manual effort, and support efficient decision-making in modern 
+       talent acquisition processes.
         </p>
 
         <div className="grid lg:grid-cols-12 gap-10 items-start">
@@ -28,24 +26,24 @@ const About: React.FC = () => {
             </h3>
 
             <p className="mt-4 text-slate-600 dark:text-slate-300 leading-relaxed">
-              Existing research in automated software engineering assessment has primarily 
-              focused on code analysis, skill evaluation, and intelligent recruitment systems. 
-              Tools such as CodeBERT and similar transformer-based models have shown strong performance
-               in understanding source code semantics and classifying programming patterns. Studies in machine 
-               learning-based hiring systems highlight the use of repository mining and code quality metrics to evaluate developer
-              capability. However, most existing approaches are limited to either static code analysis or textual assessment of resumes, lacking a combined evaluation of code structure and semantic understanding. Furthermore, few systems integrate dynamic question generation based on repository content, creating a research gap that 
-              this study addresses through an AI-driven automated hiring framework.
+              Recent research highlights the growing use of Artificial Intelligence in recruitment systems to automate
+              candidate screening, skill assessment, and hiring decisions. AI-driven platforms improve recruitment
+              efficiency, reduce manual effort, and enhance evaluation accuracy using machine learning and data analytics.
+              Most existing studies primarily focus on Software Engineering recruitment, while limited attention is given
+              to multi-domain hiring in sectors such as Accounting and Project Management. Researchers also identify challenges 
+              including algorithmic bias, transparency, fairness, and the need for more adaptable and intelligent candidate evaluation mechanisms.
             </p>
 
             <h3 className="mt-6 font-semibold text-slate-900 dark:text-white">
               Research Gap
             </h3>
             <p className="mt-3 text-slate-600 dark:text-slate-300 leading-relaxed">
-             Existing automated hiring systems mainly focus on isolated aspects such 
-             as code quality analysis or candidate evaluation, with limited integration
-              of both. Most approaches rely on static assessment methods and do not deeply
-               analyze real GitHub repositories for algorithm detection and adaptive questioning. Furthermore, current solutions are typically restricted to Python only, with limited support 
-             for multiple programming languages and semantic evaluation of responses.
+             Most existing AI-driven recruitment systems mainly focus on single-domain hiring, particularly
+              Software Engineering, with limited support for other professional sectors such as Accounting 
+              and Project Management. Additionally, many platforms lack adaptive assessment methods, transparency, 
+              and fair evaluation mechanisms. There is a need for a comprehensive multi-domain hiring platform that 
+              can intelligently evaluate diverse candidate skills while improving accuracy, reducing bias, and supporting 
+              efficient recruitment decision-making.
             </p>
 
             <h3 className="mt-6 font-semibold text-slate-900 dark:text-white">
@@ -55,13 +53,23 @@ const About: React.FC = () => {
               <li className="flex items-start gap-2">
                 <span className="mt-1 h-2 w-2 rounded-full bg-sky-500"></span>
                 <span>
-                  <strong>Problem Statement:</strong>Current software engineer recruitment methods are mostly manual and subjective, making them time-consuming and inconsistent. Existing automated systems do not effectively analyze real GitHub repositories for algorithm detection and code quality evaluation, and most are limited to Python only. They also lack proper semantic evaluation of candidate answers..
+                  <strong>Problem Statement:</strong>Traditional recruitment processes are often time-consuming, 
+                   inconsistent, and highly dependent on manual evaluation, which can lead to inefficiencies, delays,
+                   and biased hiring decisions. Organizations also face challenges in accurately assessing candidates 
+                   across different professional sectors such as Software Engineering, Accounting, and Project Management. 
+                   Therefore, there is a need for an intelligent AI-driven hiring platform that can automate candidate evaluation, 
+                   improve assessment accuracy, reduce bias, and support efficient
+                   recruitment decision-making across multiple industries.
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1 h-2 w-2 rounded-full bg-indigo-500"></span>
                 <span>
-                  <strong>Main Objective:</strong> To develop an AI-based system that automatically evaluates software engineering candidates by analyzing GitHub repositories, detecting algorithms using CodeBERT and machine learning, assessing code quality using software metrics, generating adaptive coding questions, and evaluating answers using SBERT, with future support for multiple programming languages.
+                  <strong>Main Objective:</strong> To develop an AI-driven multi-domain hiring 
+                  platform that automates candidate assessment and recruitment processes for sectors 
+                  such as Software Engineering, Accounting, and Project Management by improving evaluation 
+                  accuracy, reducing manual effort, minimizing recruitment bias, and supporting efficient 
+                  hiring decision-making.
                 </span>
               </li>
               <li className="flex items-start gap-2">

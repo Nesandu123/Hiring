@@ -25,7 +25,13 @@ const Hero: React.FC = () => {
             </h1>
 
             <p className="mt-5 text-slate-600 dark:text-slate-300 leading-relaxed transition-colors">
-              The Software Engineering Hiring Platform is an AI-driven system designed to enhance and automate the recruitment process for software engineering roles. The platform evaluates candidates through coding assessments and intelligent analysis of their technical skills, problem-solving ability, and algorithmic understanding. By reducing manual evaluation effort and improving assessment accuracy, it provides a more efficient, consistent, and objective approach to identifying qualified candidates for software engineering positions.
+              The Hiring Platform is an AI-driven system designed to enhance and automate the recruitment 
+              process across multiple professional sectors, including Software Engineering, Accounting, and 
+              Project Management. The platform evaluates candidates through sector-specific assessments and 
+              intelligent analysis of their technical knowledge, problem-solving abilities, analytical skills,
+               and professional competencies. By reducing manual evaluation effort and improving assessment 
+               accuracy, it provides a more efficient, consistent, and 
+              objective approach to identifying qualified candidates for a wide range of job roles.
             </p>
 
             <ul className="mt-3 grid sm:grid-cols-2 gap-3 text-sm text-slate-700 dark:text-slate-300">
@@ -53,6 +59,13 @@ const Hero: React.FC = () => {
                   <strong>Automated Answer Evaluation Engine</strong> 
                 </span>
               </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-1 h-2 w-2 rounded-full bg-fuchsia-500"></span>
+                <span>
+                  <strong>Attention checking</strong>
+                </span>
+              </li>
+              <li className="flex items-start gap-2"></li>
             </ul>
 
             {/* <div className="mt-6 flex flex-wrap gap-3">

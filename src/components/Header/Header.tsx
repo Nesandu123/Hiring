@@ -160,7 +160,7 @@ const Header: React.FC = () => {
           >
             <span className="inline-flex h-9 w-9 rounded-xl bg-gradient-to-br from-sky-500 via-indigo-500 to-fuchsia-500 shadow-soft"></span>
             <span className="text-lg font-extrabold tracking-tight text-slate-900 dark:text-white">
-              Automated Hiring Platform
+              SMART HIRE
             </span>
           </a>
 

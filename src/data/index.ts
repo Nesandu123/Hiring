@@ -13,13 +13,20 @@ export const teamMembers: TeamMember[] = [
     isLeader: true,
     image: "",
     email: "nesandu2002@gmail.com",
-    linkedin: "https://www.linkedin.com/in/miyurilokuhewage/",
+    linkedin: "https://www.linkedin.com/in/nesandu-abeysinghe/",
   },
   {
     name: "Kalhan A.H.L.",
     role: "Accountants Hiring Platform",
     image: "",
-    email: "koshithahasindu@gmail.com",
+    email: "kalhan@gmail.com",
+    linkedin: "https://www.linkedin.com/in/hasindu-k/",
+  },
+   {
+    name: "Darren V.C.",
+    role: "Project Managers Hiring Platform",
+    image: "",
+    email: "darren@gmail.com",
     linkedin: "https://www.linkedin.com/in/hasindu-k/",
   },
 
