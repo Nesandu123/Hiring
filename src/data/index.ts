@@ -11,7 +11,7 @@ export const teamMembers: TeamMember[] = [
     name: "Neethila A.L.N.",
     role: "Software Engineers Hiring Platform",
     isLeader: true,
-    image: "",
+    image: "images/team/my photo.jpg",
     email: "nesandu2002@gmail.com",
     linkedin: "https://www.linkedin.com/in/nesandu-abeysinghe/",
   },
@@ -36,15 +36,15 @@ export const supervisors: Supervisor[] = [
   {
     name: "Prof. Samantha Rajapakshe",
     role: "Supervisor",
-    image: "",
-    email: "dilshan.i@sliit.lk",
+    image: "images/team/Supervisor Samantha Sir.jpg",
+    email: "samantha.r@sliit.lk",
     linkedin: "https://www.linkedin.com/in/prof-dilshan-de-silva-96384573/",
   },
   {
-    name: "Ms. Thamali Kalagama",
+    name: "Ms. Osuri Dunuvila",
     role: "Co-Supervisor",
-    image: "",
-    email: "chamali.p@sliit.lk",
+    image: "images/team/osuri dunuvila.jpeg",
+    email: "thamali.k@sliit.lk",
     linkedin: "https://www.linkedin.com/in/chamali-pabasara-b54130182/",
   },
 ];
@@ -158,23 +158,33 @@ export const documents: Document[] = [
   // },
 
   {
-    title: "Checklist 1 (25-26J-448)",
+    title: "Checklist 1 (25-26J-413)",
     description: "Official project checklist for Phase 1. Status: Uploaded.",
     status: "completed",
-    link: "https://drive.google.com/file/d/1Ezh1WPIqQGvVAom1PwB4o6R1yJBuu8bS/view?usp=drive_link",
+    link: "https://mysliit.sharepoint.com/:t:/s/CDAPSubmissionCloud/IQB_C1siWS5tT4U6RaPcSjlmAeP3rlWCa7BFFndHGMkBf0o?e=6IFL3J",
     fileType: "PDF",
     lastUpdated: new Date("2026-01-11"),
   },
 
   {
-    title: "Camera Ready Research Paper",
-    description:
-      "Final camera-ready research paper submitted for the SinhalaLearn research project.",
+    title: "Checklist 2 (25-26J-413)",
+    description: "Official project checklist for Phase 1. Status: Uploaded.",
     status: "completed",
-    link: "",
+    link: "https://mysliit.sharepoint.com/:x:/r/sites/CDAPSubmissionCloud/_layouts/15/Doc.aspx?sourcedoc=%7BC72D8C90-25F4-4DE4-9A3F-B6AC4BD90D83%7D&file=IT22272454%20checklist.xlsx&action=default&mobileredirect=true",
     fileType: "PDF",
-    lastUpdated: new Date("2026-04-05"),
+    lastUpdated: new Date("2026-01-11"),
   },
+
+  {
+    title: " Draft Thesis (25-26J-413)",
+    description: "Official project checklist for Phase 1. Status: Uploaded.",
+    status: "completed",
+    link: "https://mysliit.sharepoint.com/:b:/s/CDAPSubmissionCloud/IQAGYD3dU0LKTbcauaFaU3jkAWF4qHzT3IsPTJzBiIOwAww?e=iI4tt5",
+    fileType: "PDF",
+    lastUpdated: new Date("2026-01-11"),
+  },
+
+ 
 
   {
     title: "Final Reports",
