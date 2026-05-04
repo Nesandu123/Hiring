@@ -18,7 +18,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Kalhan A.H.L.",
     role: "Accountants Hiring Platform",
-    image: "",
+    image: "images/team/Kalhan A.H.L.jpeg",
     email: "kalhan@gmail.com",
     linkedin: "https://www.linkedin.com/in/hasindu-k/",
   },
