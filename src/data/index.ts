@@ -38,14 +38,14 @@ export const supervisors: Supervisor[] = [
     role: "Supervisor",
     image: "images/team/Supervisor Samantha Sir.jpg",
     email: "samantha.r@sliit.lk",
-    linkedin: "https://www.linkedin.com/in/prof-dilshan-de-silva-96384573/",
+    linkedin: "linkedin.com/in/samantha-rajapaksha-528657b",
   },
   {
     name: "Ms. Osuri Dunuvila",
     role: "Co-Supervisor",
     image: "images/team/osuri dunuvila.jpeg",
     email: "thamali.k@sliit.lk",
-    linkedin: "https://www.linkedin.com/in/chamali-pabasara-b54130182/",
+    linkedin: "linkedin.com/in/osuri-dunuwila-877843107",
   },
 ];
 
