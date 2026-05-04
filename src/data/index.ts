@@ -126,36 +126,32 @@ export const documents: Document[] = [
     lastUpdated: new Date("2025-06-23"),
   },
 
-  // {
-  //   title: "Individual Project Proposals",
-  //   description:
-  //     "Comprehensive research proposals submitted by each team member covering their respective functional areas.",
-  //   status: "completed",
-  //   fileType: "PDF",
-  //   lastUpdated: new Date("2025-09-19"),
-  //   subDocuments: [
-  //     {
-  //       title: "Proposal: Evaluation of Answers (Lokuhewage M.M)",
-  //       link: "https://drive.google.com/file/d/1Ro0YBu4iTzlEwlIGEETJdXBQnMR0uRDy/view?usp=drive_link",
-  //       status: "completed",
-  //     },
-  //     {
-  //       title: "Proposal: Sinhala Document Processing (Ranaweera P.H.K)",
-  //       link: "https://drive.google.com/file/d/12lOz06qVKUM5VRsJAYojlRxBuqWjF_bI/view?usp=drive_link",
-  //       status: "completed",
-  //     },
-  //     {
-  //       title: "Proposal: Resource‑Based Q&A - Text (Jayananda L.V.O.R)",
-  //       link: "https://drive.google.com/file/d/18cIblzscCTYRWEnpFyFEdo5gzR1WctpA/view?usp=drive_link",
-  //       status: "completed",
-  //     },
-  //     {
-  //       title: "Proposal: Resource‑Based Q&A - Voice (Sathsara T.T.D)",
-  //       link: "https://drive.google.com/file/d/1hMqGEa24OGd42w3lv7TkcfJr2SRNA84B/view?usp=drive_link",
-  //       status: "completed",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Individual Project Proposals",
+    description:
+      "Comprehensive research proposals submitted by each team member covering their respective functional areas.",
+    status: "completed",
+    fileType: "PDF",
+    lastUpdated: new Date("2025-09-19"),
+    subDocuments: [
+      {
+        title: "Proposal: Automated Software Engineers Hiring Platform (Neethila A.L.N.)",
+        link: "https://mysliit.sharepoint.com/:b:/s/CDAPSubmissionCloud/IQBLr3I_yX-GQYiRXGnUQp-TAY54aPBb37qhTrXgGoeZ7H8?e=rb4qI9",
+        status: "completed",
+      },
+      {
+        title: "Proposal: Automated Project Managers Hiring Platform (Darren V.C.)",
+        link: "https://mysliit.sharepoint.com/:w:/s/CDAPSubmissionCloud/IQAErtOg21l2SJ7FuIfrN8-8AVdktqCpkL9yYqqnnYv7Ptk?e=qZmR5t",
+        status: "completed",
+      },
+      {
+        title: "Proposal: Automated Accountans  Hiring Platform (Kalhan A.H.L.)",
+        link: "https://drive.google.com/file/d/18cIblzscCTYRWEnpFyFEdo5gzR1WctpA/view?usp=drive_link",
+        status: "completed",
+      },
+      
+    ],
+  },
 
   {
     title: "Checklist 1 (25-26J-413)",
