@@ -136,7 +136,7 @@ export const documents: Document[] = [
     subDocuments: [
       {
         title: "Proposal: Automated Software Engineers Hiring Platform (Neethila A.L.N.)",
-        link: "https://mysliit.sharepoint.com/:b:/s/CDAPSubmissionCloud/IQBLr3I_yX-GQYiRXGnUQp-TAY54aPBb37qhTrXgGoeZ7H8?e=rb4qI9",
+        link: "https://mysliit.sharepoint.com/:b:/s/CDAPSubmissionCloud/IQBNJhv0adu1QI6LlSlHZrlFAd8YDkqU2ksSStzmAifheMc?e=h4Prce",
         status: "completed",
       },
       {
@@ -145,8 +145,8 @@ export const documents: Document[] = [
         status: "completed",
       },
       {
-        title: "Proposal: Automated Accountans  Hiring Platform (Kalhan A.H.L.)",
-        link: "https://drive.google.com/file/d/18cIblzscCTYRWEnpFyFEdo5gzR1WctpA/view?usp=drive_link",
+        title: "Proposal: Automated Accountants Hiring Platform (Kalhan A.H.L.)",
+        link: "https://mysliit.sharepoint.com/:w:/s/CDAPSubmissionCloud/IQBEJNrxlG7SS6IjKdynCAxeAeq6pXBFROeNGMX-chIZ1Cs?e=bChIPl",
         status: "completed",
       },
       
